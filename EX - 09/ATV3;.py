@@ -1,4 +1,4 @@
-nome = input("Digite seu nome completo: ")
+nome = str(input("Digite seu nome completo: ")).strip()
 nome = nome.lower()
 nome3 = nome.find('santo')
 
